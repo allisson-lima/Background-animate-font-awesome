@@ -5,7 +5,7 @@
 .wrapper{
     height: 100%;
     width: 100%;
-    background: linear-gradient(180deg,rgb(54, 53, 53),5%,#222 50%,#030423);
+    background: linear-gradient(180deg,rgb(73, 71, 71),5%,rgb(41, 37, 37) 50%,#222);
     position: absolute;
 }
 .wrapper h1{
@@ -38,12 +38,12 @@ i{
     animation: animate 4s linear infinite;
 }
 .wrapper div:nth-child(1){
-    top: 20%;
-    left: 20%;
+    top: 40%;
+    left: 24%;
     animation: animate 8s linear infinite;
 }
 .wrapper div:nth-child(2){
-    top: 60%;
+    top: -90%;
     left: 80%;
     animation: animate 10s linear infinite;
 }
@@ -68,7 +68,7 @@ i{
     animation: animate 5s linear infinite;
 }
 .wrapper div:nth-child(7){
-    top:   0%;
+    top:   -0%;
     left: 20%;
     animation: animate 8s linear infinite;
 }
@@ -93,18 +93,18 @@ i{
     animation: animate 10s linear infinite;
 }
 .wrapper div:nth-child(12){
-    top:   -10%;
+    top:   -20%;
     left: 10%;
     animation: animate 9s linear infinite;
 }
 .wrapper div:nth-child(13){
-    top:   -15%;
-    left: 38%;
+    top:   -35%;
+    left: 25%;
     animation: animate 8s linear infinite;
 }
 .wrapper div:nth-child(14){
-    top:   -20%;
-    left: 58%;
+    top:   -30%;
+    left: 48%;
     animation: animate 10s linear infinite;
 }
 .wrapper div:nth-child(15){
@@ -113,13 +113,18 @@ i{
     animation: animate 10s linear infinite;
 }
 .wrapper div:nth-child(16){
-    top:   -41%;
+    top:   -51%;
     left: 72%;
     animation: animate 10s linear infinite;
 }
 .wrapper div:nth-child(17){
     top:   -83%;
     left: 86%;
+    animation: animate 12s linear infinite;
+}
+.wrapper div:nth-child(18){
+    top:   -63%;
+    left: 16%;
     animation: animate 12s linear infinite;
 }
 @keyframes animate{
